@@ -1,0 +1,6 @@
+package com.Practice.springDemo;
+
+//Annotation based Configuration with a Configuration Class
+public class Student {
+
+}

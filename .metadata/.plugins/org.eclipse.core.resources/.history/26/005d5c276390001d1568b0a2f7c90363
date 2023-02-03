@@ -1,0 +1,17 @@
+package com.Practice.springDemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("vehicle")
+public class Car implements Vehicle {
+	
+	String carName;
+	
+	@Autowired
+	Tyre tyre;
+	
+	public void drive() {
+		System.out.println(carName+"car tyre company is: "+tyre.CompanyName());
+	}
+}

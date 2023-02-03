@@ -1,0 +1,10 @@
+package com.Practice.springDemo;
+
+public class App2 {
+
+	public static void main(String[] args) {
+		//Annotation based Configuration with a Configuration Class
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+This project  is about Spring MVC
+
+A)Maven
+
+a)spring-context and spring-mvc dependencies.
+b)mysql-connector-java and jstl dependencies.
+
+B)Views
+
+a)Used to interact with users with form and show them data.
+
+C)Spring MVC
+
+a)web.xml - To define Dispatcher Servlet which would handle all Controllers automatically.
+b)spring-servlet.xml - Define componentScan the package where components will be searched.
+
+D)Controllers
+
+a)Make it a controller - @Controller
+b)Make a method to work - @RequestMapping 

@@ -1,0 +1,39 @@
+This Project is for Hibernate
+
+A)Hibernate
+
+a)Maven
+
+1)Project Management Tool.
+2)To manage dependencies.
+3)Hibernate core dependency.
+
+b)Entity(Class)
+
+1)Class is like Table and properties are columns.
+2)Annotations to declare, @Entity, @Id(Primary key), @Table.
+
+c)Main Code
+
+1)Hibernate helps in simply using Objects to save data in SQL.
+2)Make a Session using SessionFactory and Session Classes.
+3)To fulfill ACID properties use Transaction Class and commit transaction.
+4)Use Configuration Class to add you Entity Class.
+
+d)Caching
+
+1)Level 1 Caching - Automatic caching for same query in same session.
+2)Level 2 Caching - Add dependency, make configuration for enabling caching for same query in different sessions.
+
+e)HQL
+
+1)Hibernate Query Language.
+2)Similar to SQL.
+3)Use Session to create query.
+4)query.list() and query.uniqueResult() to get data.
+
+
+f)JPA
+
+1)Java Persistence API.
+

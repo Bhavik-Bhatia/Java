@@ -1,0 +1,20 @@
+This Project is for Hibernate
+
+A)Hibernate
+
+a)Maven
+
+1)Project Management Tool.
+2)To manage dependencies.
+3)Hibernate core dependency.
+
+b)Entity(Class)
+
+1)Class is like Table and properties are columns.
+2)Annotations to declare, @Entity, @Id(Primary key), @Table.
+
+c)Main Code
+
+1)Hibernate helps in simply using Objects to save data in SQL.
+2)Make a Session using SessionFactory and Session Classes.
+3)To fulfill ACID properties use Transaction Class and commit transaction.

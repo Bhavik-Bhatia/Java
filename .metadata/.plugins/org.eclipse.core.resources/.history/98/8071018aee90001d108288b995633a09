@@ -1,0 +1,10 @@
+package com.Practice.springDemo;
+
+public class Grade {
+	
+	@Override
+	public String toString() {
+		return "8th";
+	}
+	
+}

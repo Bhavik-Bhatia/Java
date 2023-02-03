@@ -1,0 +1,11 @@
+This Project is for Spring Core Dependency Injection
+
+
+A)Maven
+
+1)spring-context springframework dependency.
+
+B)Dependency Injection
+
+1)Application context - XML Based Config - XML File.
+2)Application context - getBean which you made to make object and inject it into reference.

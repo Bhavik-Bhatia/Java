@@ -1,0 +1,10 @@
+package com.Practice.springDemo;
+
+import org.springframework.stereotype.Component;
+
+@Component("vehicle")
+public class Car implements Vehicle {
+	public void drive() {
+		System.out.println("Car...");
+	}
+}

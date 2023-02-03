@@ -1,0 +1,7 @@
+package com.Practice.springDemo;
+
+import org.springframework.context.annotation.ComponentScan;
+//Component Scan allows you to fully utilize annotations 
+@ComponentScan(basePackages="com.Practice.springDemo")
+public class AppContext {		
+}

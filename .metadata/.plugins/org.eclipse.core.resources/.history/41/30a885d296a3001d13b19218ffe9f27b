@@ -1,0 +1,15 @@
+This project  is about Spring MVC
+
+A)Maven
+
+a)spring-context and spring-mvc dependencies.
+b)mysql-connector-java and jstl dependencies.
+
+B)Views
+
+a)Used to interact with users with form and show them data.
+
+C)Spring MVC
+
+a)Client sends request Controllers.
+b)There is Front Controller - DispatcherServlet which manages all other Controllers.

@@ -1,0 +1,17 @@
+This project  is about Spring MVC
+
+A)Maven
+
+a)spring-context and spring-mvc dependencies.
+b)mysql-connector-java and jstl dependencies.
+
+B)Views
+
+a)Used to interact with users with form and show them data.
+
+C)Configuration Files
+
+a)web.xml - To define servlet mapping.
+b)spring-servlet.xml - Define componentScan the package where components will be searched.
+
+D) 

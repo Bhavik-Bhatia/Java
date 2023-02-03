@@ -1,0 +1,11 @@
+1673370234772	Move 'resources' to 'java'
+1673370256522	Move 'hibernate.cfg.xml' to 'DemoHib'
+1673370266809	Move 'persistence.xml' to 'DemoHib'
+1673370280905	Delete element
+1673372480512	Move 'persistence.xml' to 'META-INF'
+1673373039805	Delete element
+1673373054440	Move 'persistence.xml' to 'META-INF'
+1673373117579	Rename resource 'persistence.xml'
+1673373133306	Rename resource 'persistence2.xml'
+1673373193049	Delete element
+1673373308590	Rename resource 'Persistence.xml'

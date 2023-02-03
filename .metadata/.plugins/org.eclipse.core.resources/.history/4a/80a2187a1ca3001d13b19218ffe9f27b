@@ -1,0 +1,13 @@
+This Project is about Servlets and JSP
+
+
+A)Servlets
+
+1)Controller - To process request and response. Methods in servlets doGet() and doPost().   
+2)Views - To show data and interact with user
+3)Models - To make referenced data types. 
+
+
+
+
+

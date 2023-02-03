@@ -1,0 +1,23 @@
+package com.Practice.springDemo;
+
+//Annotation based Configuration with a Configuration Class
+public class Student {
+	private int sid;
+	private int sname;
+	public int getSid() {
+		return sid;
+	}
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+	public int getSname() {
+		return sname;
+	}
+	public void setSname(int sname) {
+		this.sname = sname;
+	}
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + "]";
+	}		
+}

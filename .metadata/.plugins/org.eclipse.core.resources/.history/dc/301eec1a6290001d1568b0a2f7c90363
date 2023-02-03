@@ -1,0 +1,7 @@
+package com.Practice.springDemo;
+
+public class Tyre {
+	public String CompanyName(){
+		return "Ceat";
+	}
+}

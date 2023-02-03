@@ -1,0 +1,9 @@
+package com.Practice.springDemo;
+
+public class Tyre {
+	
+	public void CompanyName{
+		System.out.println("Ceat");
+	}
+
+}

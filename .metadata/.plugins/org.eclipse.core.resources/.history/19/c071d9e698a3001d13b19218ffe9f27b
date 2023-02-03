@@ -1,0 +1,24 @@
+This project  is about Spring MVC
+
+A)Maven
+
+a)spring-context and spring-mvc dependencies.
+b)mysql-connector-java and jstl dependencies.
+
+B)Views
+
+a)Used to interact with users with form and show them data.
+
+C)Spring MVC
+
+a)Client sends request Controllers.
+b)There is Front Controller - DispatcherServlet which manages all other Controllers.
+c)In web.xml -  we need to mention DispatcherServlet which will manage all requests.
+d)Controllers - will be annotated with @Controller.
+e)In spring-servlet.xml - we will mention package where all Controllers are using componentScan.
+f)ModelAndView - The child controllers will return view name and data with help of ModelAndView.
+
+D)Controllers
+
+a)@Controller - Annotation for defining controller.
+b)@RequestMapping(Path) - On methods     

@@ -1,0 +1,14 @@
+package com.Practice.springDemo;
+
+public class App2 {
+
+	public static void main(String[] args) {
+		//Annotation based Configuration with a Configuration Class
+		Student studentObj = new Student();
+		
+		studentObj.setSid(101);
+		studentObj.setSname("Bhavik");
+		System.out.println(studentObj);
+	}
+
+}

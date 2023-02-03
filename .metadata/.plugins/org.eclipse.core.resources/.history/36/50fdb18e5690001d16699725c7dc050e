@@ -1,0 +1,14 @@
+package com.Practice.springDemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Vehicle obj = new Car();
+        obj.drive();
+    }
+}

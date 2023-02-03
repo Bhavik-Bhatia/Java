@@ -1,0 +1,23 @@
+package com.Practice.springDemo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+//Component Scan allows you to fully utilize annotations 
+//@ComponentScan(basePackages="com.Practice.springDemo")
+
+@Configuration
+public class AppContext {
+
+	@Bean(name="student")
+	public Student getStudent(){		
+		return new Student();
+	}
+
+	@Bean
+	public Grade getGrade(){		
+		return new Grade();
+	}
+	
+	
+}

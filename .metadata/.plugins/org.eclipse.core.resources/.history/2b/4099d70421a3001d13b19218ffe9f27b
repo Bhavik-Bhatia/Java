@@ -1,0 +1,31 @@
+This Project is about Servlets and JSP
+
+
+A)Servlets
+
+a)Controller - 
+
+0)Servlet Mapping is to map servlets with request URL, can be done @WebServlet
+1)To process request and response. Methods in servlets doGet() and doPost().   
+2)You can get data from getParameter("") method.
+3)Interact with other servlets through sendRedirect and RequestDispatcher.
+4)Store data in request and forward through RequestDispatcher.
+5)URL rewriting is another method to store data and pass to another page.
+6)Using session to store data and using sendRedirect().
+7)Cookie to store data in client side.
+8)PrintWriter to print data on client side.
+
+b)Views - To show data and interact with user
+
+0)Simple HTML pages or JSP pages (Make Dynamic Web Content)
+1)Scriplet Tag to write scripts - main code.
+2)Declarative Tag to declare variables.
+
+ 
+
+c)Models - To make referenced data types. 
+
+
+
+
+
